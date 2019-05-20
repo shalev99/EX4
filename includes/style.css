@@ -1,0 +1,105 @@
+/*                                  Tal Shalev  ex4              general  */
+* {    margin: 0px; padding: 0px;}
+  
+  header,  main,section,label { display: block; }
+
+ /*                                           form 1*/
+label{
+
+    padding-top: 20px; 
+   
+
+}
+
+#wrapper form{
+    
+    padding-top: 3%;
+}
+
+
+.sumbit{
+
+    text-align: center;
+}
+body{
+    background-color: rgb(231, 236, 236);
+}
+
+/*                                           form 2*/
+
+
+#login{
+
+    text-align: center;
+
+}
+
+#login form{
+
+    padding-top: 15%;
+    
+
+}
+
+
+
+/*                                                        for Animation   */
+
+
+/*         https://www.hongkiat.com/blog/svg-animations/               */
+
+
+
+
+html, body {
+  background: rgb(231, 236, 236);
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.svg-wrapper {
+  height: 60px;
+    margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 320px;
+}
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  stroke: #19f6e8;
+}
+
+.text {
+  color: rgb(255, 6, 6);
+  font-family: 'Roboto Condensed';
+  font-size: 40px;
+  letter-spacing: 8px;
+  line-height: 32px;
+  position: relative;
+  top: -48px;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+.svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}
+

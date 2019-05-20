@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    
+<head>     
+        <title> TS-form</title>
+        <script type="text/javascript" src="includes/main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="includes/style.css">
+</head>
+
+<body>
+                <div id="wrapper">
+
+                        
+<form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get"  autocomplete="on">
+
+        
+  <div class="svg-wrapper">
+      <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+        <rect class="shape" height="60" width="320" />
+      </svg>
+       <div class="text">Tal's Form</div>
+    </div>
+        <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">FullName</label>
+                          <input type="text" name="fullName" value=""   class="form-control" id="inputEmail4" placeholder="Your fullName">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4">Password</label>
+                          <input type="password"  name="pass" value="" class="form-control" maxlength="4" id="inputPassword4" placeholder="Your Password">
+                        </div>
+        </div>
+        
+        <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Email</label>
+                          <input type="email"  name="mail"  value="" class="form-control" id="inputEmail4" placeholder="Your Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4">Website</label>
+                          <input type="url" name="website" value="" class="form-control" id="inputPassword4" placeholder="Your website">
+                        </div>
+        </div>
+
+
+        <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Phone number</label>
+                          <input type="tel" name="phone" value="" maxlength="10" class="form-control" id="inputEmail4" placeholder="Your phone number">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4">Amount of coffee you drink a day</label>
+                          <input  type="number" name="coffee" value="" min="0" class="form-control" id="inputPassword4" placeholder="Your Amount of coffee">
+                        </div>
+        </div>
+
+
+        <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">The temperature now is (0-100) :</label>
+                          <input type="range" name="temper" value=""   class="form-control" id="inputEmail4" >
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4">Address</label>
+                          <input type="text" name="address" value="" class="form-control" id="inputPassword4" placeholder="Your address">
+                        </div>
+        </div>
+
+
+
+
+        <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">Your hobbies are :</label>
+                          <div class="form-check form-check-inline">
+                                        <input  type="checkbox" name="interests[]  class="form-check-input"  id="inlineCheckbox1" value="movie">
+                                        <label class="form-check-label" for="inlineCheckbox1">movie</label>
+                                      </div>
+                                      <div class="form-check form-check-inline">
+                                        <input  type="checkbox" name="interests[]  class="form-check-input"  id="inlineCheckbox2" value="sport">
+                                        <label class="form-check-label" for="inlineCheckbox2">sport</label>
+                                      </div>
+                                      <div class="form-check form-check-inline">
+                                        <input type="checkbox" name="interests[] class="form-check-input"  id="inlineCheckbox3" value="Homework" disabled>
+                                        <label class="form-check-label" for="inlineCheckbox3">Homework (disabled)</label>
+                                      </div>
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="inputState">Your gender</label>
+                          <select  name="gender"  id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                          </select>
+                        </div>
+
+                        <div class="form-group col-md-2">
+                          <label for="inputZip">Age</label>
+                          <input type="number" name="age" value="" min="0" class="form-control" id="inputZip">
+                        </div>
+        </div>
+
+
+
+       <label class="sumbit"> <button type="submit" class="btn btn-primary">submit</button></label>
+
+
+
+
+
+
+</form >
+
+
+
+
+
+                </div>
+
+                               
+</body>
+
+</html>
+
